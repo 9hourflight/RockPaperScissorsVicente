@@ -88,7 +88,6 @@ namespace RockPaperScissorsLizardSpock
                     break;
             }
         }
-
         static void UserScissors(string cpuHand, ref int playerScore, ref int cpuScore)
         {
             switch (cpuHand)
@@ -119,7 +118,6 @@ namespace RockPaperScissorsLizardSpock
                     break;
             }
         }
-
         static void UserPaper(string cpuHand, ref int playerScore, ref int cpuScore)
         {
             switch (cpuHand)
@@ -180,7 +178,6 @@ namespace RockPaperScissorsLizardSpock
                     break;
             }
         }
-
         static void UserSpock(string cpuHand, ref int playerScore, ref int cpuScore)
         {
             switch (cpuHand)
